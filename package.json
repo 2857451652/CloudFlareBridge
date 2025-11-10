@@ -1,0 +1,22 @@
+{
+  "name": "cloudflare-bridge",
+  "version": "1.0.0",
+  "description": "Cloudflare Workers proxy to HuggingFace Space",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "start": "wrangler dev"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "proxy"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
+

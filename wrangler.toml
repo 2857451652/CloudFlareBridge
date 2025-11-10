@@ -1,0 +1,14 @@
+name = "cloudflare-bridge"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# 配置你的域名路由
+routes = [
+  { pattern = "www.cisg.ai/*", zone_name = "cisg.ai" },
+  { pattern = "cisg.ai/*", zone_name = "cisg.ai" }
+]
+
+# 如果需要使用环境变量
+# [vars]
+# TARGET_URL = "https://jnsecret-metarec.hf.space"
+
